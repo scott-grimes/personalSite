@@ -54,7 +54,7 @@ export default class StartMenu extends React.Component {
 			>
 				<div className="start-menu-logo">
 					<div className="vertical-text">
-						pizza-pizza
+						windows 95
 					</div>
 				</div>
 				<ul className="start-menu-items">

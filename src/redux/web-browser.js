@@ -4,7 +4,7 @@ const SET_URL = 'web-browser/SET_URL';
 const GO_FORWARD = 'web-browser/GO_FORWARD';
 const GO_BACKWARD = 'web-browser/GO_BACKWARD';
 
-const HOME_PAGE = 'http://duckduckgo.com/';
+const HOME_PAGE = 'http://startpage.com/';
 
 const DEFAULT_STATE = {
 	url: HOME_PAGE,
@@ -14,7 +14,7 @@ const DEFAULT_STATE = {
 };
 
 function generateUrl(inputString) {
-	const searchPrefix = 'https://duckduckgo.com/?q=';
+	const searchPrefix = 'https://www.startpage.com/do/search?q=';
 
 	const matchDomainName = /^[a-zA-Z0-9-]*\./;
 
